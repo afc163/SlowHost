@@ -1,0 +1,19 @@
+{
+  "name": "SlowHost",
+  "version": "0.0.1",
+  "description": "A very simple and slow static resources host.",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/afc163/SlowHost.git"
+  },
+  "keywords": [
+    "host"
+  ],
+  "engines": {
+    "node": ">= 0.8.1"
+  },
+  "author": "pianyou <afc163@gmail.com>",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
