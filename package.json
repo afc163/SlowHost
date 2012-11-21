@@ -1,5 +1,5 @@
 {
-  "name": "SlowHost",
+  "name": "slowhost",
   "version": "0.0.1",
   "description": "A very simple and slow static resources host.",
   "main": "lib/index.js",
