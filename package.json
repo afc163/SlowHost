@@ -11,12 +11,13 @@
     "url": "git://github.com/afc163/SlowHost.git"
   },
   "keywords": [
-    "host"
+    "host",
+    "upload"
   ],
   "engines": {
     "node": ">= 0.8.1"
   },
-  "author": "pianyou <afc163@gmail.com>",
+  "author": "afc163 <afc163@gmail.com>",
   "license": "MIT",
   "readmeFilename": "README.md",
   "dependencies": {
