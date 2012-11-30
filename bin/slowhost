@@ -3,9 +3,13 @@
 var path = require('path'),
     fs = require('fs'),
     program = require('commander'),
+    pkg = require('../package.json'),
     index = require('../lib/index');
 
-program.parse(process.argv);
+program
+    .version(pkg.version)
+    .option('-X, --verbose', 'log full info')
+    .parse(process.argv);
 
-index.main(process.argv[2]);
+index.main(process.argv[2], !program.verbose);
 

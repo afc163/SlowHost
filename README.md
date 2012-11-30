@@ -24,3 +24,9 @@ Uploading slowly...
 Upload test.jpg successed!
 - https://raw.github.com/slowhost/upload/1354160941968/test.jpg
 ```
+
+You can see details by add -X.
+
+```
+$ slowhost test.jpg -X
+```
