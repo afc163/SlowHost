@@ -8,7 +8,7 @@ var path = require('path'),
 
 program
     .version(pkg.version)
-    .option('-X, --verbose', 'log full info')
+    .option('-e, --verbose', 'log full info')
     .parse(process.argv);
 
 index.main(process.argv[2], !program.verbose);
