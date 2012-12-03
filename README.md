@@ -28,5 +28,5 @@ Upload test.jpg successed!
 You can see details by add `-e` or `--verbose`.
 
 ```
-$ slowhost test.jpg -v
+$ slowhost test.jpg -e
 ```
