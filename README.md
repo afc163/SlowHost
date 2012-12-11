@@ -30,3 +30,9 @@ You can see details by add `-e` or `--verbose`.
 ```
 $ slowhost test.jpg -v
 ```
+
+You can also host the web resource to github.
+
+```
+$ slowhost https://npmjs.org/static/npm.png
+```
