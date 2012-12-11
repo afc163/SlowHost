@@ -28,7 +28,7 @@ Upload test.jpg successed!
 You can see details by add `-e` or `--verbose`.
 
 ```
-$ slowhost test.jpg -v
+$ slowhost test.jpg -e
 ```
 
 You can also host the web resource to github.
